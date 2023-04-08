@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const Head = () => {
   return (
-    <div>Head</div>
-  )
-}
+    <>
+      <section className="head">
+        <div className="container flexSB">
+          <div className="logo">
+            <h1>ACADEMIA</h1>
+            <span>ONLINE EDUCATION & LEARNING</span>
+          </div>
 
-export default Head
+          <div className="socail">
+            <i className="fab fa-facebook-f icon"></i>
+            <i className="fab fa-instagram icon"></i>
+            <i className="fab fa-twitter icon"></i>
+            <i className="fab fa-youtube icon"></i>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Head;

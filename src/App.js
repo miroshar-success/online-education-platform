@@ -5,7 +5,14 @@ import Header from './components/common/header/Header'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path=''  />
+        </Switch>
+      </Router>
+    </>
   )
 }
 
