@@ -6,6 +6,7 @@ import Pricing from "./components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import CourseHome from "./components/allcourse/CourseHome";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/courses" component={CourseHome} />
           <Route exact path="/pricing" component={Pricing} />
           <Route exact path="/journal" component={Blog} />
         </Switch>
